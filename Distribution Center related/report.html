@@ -1,0 +1,240 @@
+<html>
+  <head>
+    <title></title>
+    <link rel="stylesheet" href="./Bootstrap/css/bootstrap.css" />
+    <link rel="stylesheet" href="./Bootstrap/css/bootstrap-utilities.min.css" />
+    <link rel="stylesheet" href="./Bootstrap/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="./CSS/style.css" />
+    <link rel="stylesheet" href="./fontawesome/css/all.css" />
+    <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
+  </head>
+  <body>
+    <header>
+      <div class="navbar">
+        <div class="logo">
+          <a href="#">Agro <span style="color: #02a12c">Bot</span></a>
+        </div>
+
+        <ul class="links">
+          <li><a href="./index.html">Home</a></li>
+          <li><a href="./productRegisterRequest.html">Registration Requests</a></li>
+          <li><a href="./productRegister.html">Registration</a></li>
+          <li><a href="./productRequestAcceptance.html">Product Requests</a></li>
+          <li><a href="./productRequest.html">Registered Product</a></li>
+          <li><a href="./report.html">Reports </a></li>
+          <li><a href="./individualContribution.html">Report Contribution</a></li>
+          <li><a href="./aboutUs.html">About our community</a></li>
+        </ul>
+
+        <a href="#" style="color: #2b2a2a">
+          <i class="far fa-user"></i>
+        </a>
+
+        <div class="toggle_btn">
+          <i class="fa-solid fa-bars"></i>
+        </div>
+      </div>
+
+      <div class="dropdown-menu">
+        <li><a style="color: #7a7a78" href="#">Home</a></li>
+        <li><a style="color: #7a7a78" href="#">Buy</a></li>
+        <li><a style="color: #7a7a78" href="#">Register / SignIn</a></li>
+        <li><a style="color: #7a7a78" href="#">About Us</a></li>
+        <a href="#" class="action_btn">Sign In</a>
+      </div>
+    </header>
+    <section style="background-image: url(./Images/main\ img.jpg); width: 100%"></section>
+    <br />
+    <!-- developing section -->
+    <div class="container">
+      <div class="card">
+        <div class="card-title" style="text-align: center; text-transform: uppercase; margin-top: 2%">
+          <div class="logo">
+            <p style="color: #706f6f">Agro <span style="color: #02a12c">Bot</span></p>
+          </div>
+          <h3 style="font-weight: 500">Report</h3>
+        </div>
+        <div class="card-body">
+          <div class="row">
+            <table class="table table-borderless">
+              <tr>
+                <td align="center" style="font-weight: 500; font-size: 20px">Total Amount Sold - 2509kg</td>
+                <td align="center" style="font-weight: 500; font-size: 20px">Total Amount Transferred-Rs.650,250.00</td>
+              </tr>
+            </table>
+          </div>
+          <div class="row" style="margin-top: 2%">
+            <h5 style="font-weight: 500; text-align: center">This Month Transactions</h5>
+          </div>
+          <div class="row">
+            <div class="col-sm-12">
+              <table class="table table-bordered table-striped" style="margin-top: 2%">
+                <thead>
+                  <tr>
+                    <th scope="col">ID</th>
+                    <th scope="col">Product ID</th>
+                    <th scope="col">Product Name</th>
+                    <th scope="col">Sold Quantity</th>
+                    <th scope="col">Amount</th>
+                    <th scope="col">Transfer Rate status</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td>003</td>
+                    <td>541</td>
+                    <td>Orange</td>
+                    <td align="right">35</td>
+                    <td align="right">5kg</td>
+                    <td align="right">6%</td>
+                  </tr>
+                  <tr>
+                    <td>110</td>
+                    <td>539</td>
+                    <td>Banana</td>
+                    <td align="right">150</td>
+                    <td align="right">19kg</td>
+                    <td align="right">19%</td>
+                  </tr>
+                  <tr>
+                    <td>015</td>
+                    <td>499</td>
+                    <td>Grapes</td>
+                    <td align="right">80</td>
+                    <td align="right">3kg</td>
+                    <td align="right">4%</td>
+                  </tr>
+                  <tr>
+                    <th style="vertical-align: middle; text-align: right" colspan="4" rowspan="2" align="right">Old Transactions</th>
+                    <th style="text-align: right" align="right">Year</th>
+                    <th style="text-align: right" align="right">2023</th>
+                  </tr>
+                  <tr>
+                    <th style="text-align: right" align="right">Month</th>
+                    <th style="text-align: right" align="right">June</th>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <style>
+      input[type="date"] {
+        text-align: right;
+      }
+
+      input[type="date"]:before {
+        color: rgb(125, 124, 124);
+        content: attr(placeholder) !important;
+        margin-right: 1em;
+      }
+    </style>
+    <script>
+      var today = new Date();
+      var dd = String(today.getDate()).padStart(2, "0");
+      var mm = String(today.getMonth() + 1).padStart(2, "0"); // January is 0!
+      var yyyy = today.getFullYear();
+
+      if (mm.length === 1) {
+        mm = "0" + mm;
+      }
+
+      if (dd.length === 1) {
+        dd = "0" + dd;
+      }
+
+      var todayFormatted = yyyy + "-" + mm + "-" + dd;
+      document.getElementById("date").value = todayFormatted;
+    </script>
+
+    <br />
+    <!-- footer design -->
+    <footer class="footer">
+      <div class="container">
+        <div class="row">
+          <div class="footer-col">
+            <h4>Home</h4>
+            <ul>
+              <li><a href="#">Vision and Mission</a></li>
+              <li><a href="#">Most Popular Products</a></li>
+              <li><a href="#">See How to get started</a></li>
+              <li><a href="#">Awarded Villages</a></li>
+              <li><a href="#">Progress Rate</a></li>
+            </ul>
+          </div>
+
+          <div class="footer-col">
+            <h4>Buy</h4>
+            <ul>
+              <li><a href="#">Buy Goods</a></li>
+              <li><a href="#">Rate the goods</a></li>
+              <li><a href="#">Guidelines for food buying</a></li>
+              <li><a href="#">Be a loyal customer</a></li>
+            </ul>
+          </div>
+
+          <div class="footer-col">
+            <h4>Register / SignIn</h4>
+            <ul>
+              <li><a href="#">Register as a customer</a></li>
+              <li><a href="#">Register as a farmer</a></li>
+              <li><a href="#">Register a new distibution Center</a></li>
+              <li><a href="#">Guidelines</a></li>
+            </ul>
+          </div>
+
+          <div class="footer-col">
+            <h4>Connect Us</h4>
+            <div class="social-links">
+              <a href="#"><i class="fab fa-facebook-f"></i></a>
+              <a href="#"><i class="fab fa-twitter"></i></a>
+              <a href="#"><i class="fab fa-instagram"></i></a>
+              <a href="#"><i class="fab fa-linkedin-in"></i></a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <script>
+      const togglebtn = document.querySelector(".toggle_btn");
+      const togglebtnIcon = document.querySelector(".toggle_btn i");
+      const dropdownmenu = document.querySelector(".dropdown-menu");
+
+      togglebtn.onclick = function () {
+        dropdownmenu.classList.toggle("open");
+        const isOpen = dropdownmenu.classList.contains("open");
+
+        togglebtnIcon = isOpen ? "fa-solid fa-xmark" : "fa-solid fa-bars";
+      };
+
+      window.addEventListener("scroll", function () {
+        var header = document.querySelector("header");
+        header.classList.toggle("sticky", window.scrollY > 0);
+      });
+
+      const filterContainer = document.querySelector(".btns-filter");
+      galleryItems = document.querySelectorAll(".gallery-item");
+
+      filterContainer.addEventListener("click", (event) => {
+        if (event.target.classList.contains("filter-item")) {
+          filterContainer.querySelector(".active").classList.remove("active");
+          event.target.classList.add("active");
+          const filterValue = event.target.getAttribute("data-filter");
+          galleryItems.foreach((items) => {
+            if (items.classList.contains(filterValue) || filterValue === "all") {
+              items.classList.remove("hide");
+              items.classList.add("show");
+            } else {
+              items.classList.remove("show");
+              items.classList.add("hide");
+            }
+          });
+        }
+      });
+    </script>
+  </body>
+</html>
