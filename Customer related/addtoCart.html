@@ -1,0 +1,424 @@
+<html>
+    <head>
+        <title></title>
+        <link rel="stylesheet" href="../Bootstrap/css/bootstrap.css">
+        <link rel="stylesheet" href="../Bootstrap/css/bootstrap-utilities.min.css">
+        <link rel="stylesheet" href="../Bootstrap/css/bootstrap.min.css">
+        <link rel="stylesheet" href="../CSS/style.css">
+        <link rel="stylesheet" href="../fontawesome/css/all.css">
+
+        <style>
+            header .action_btn{
+                width: 50px;
+                height: 50px;
+                padding: 0;
+                margin: 0;
+                align-items: center;
+                justify-content: center;
+                border-radius: 50%;
+                overflow: hidden;
+            }
+
+            header .action_btn img{
+                width: 50px;
+                height: 50px;
+                object-fit: cover;
+            }
+
+            /* profile details start */
+            .profileDetails .profile-links{
+            background-color: white;
+            padding: 30px 20px;
+            text-align: center;
+            margin: 100px 100px 0 100px;
+            border-radius: 10px;
+        }
+
+        .profileDetails .profile-links img{
+            width: 150px;
+            height: 150px;
+            border-radius: 50%;
+            display: inline-block;
+            margin-bottom: 25px;
+        }
+
+        .profileDetails .profile-links li{
+            display: block;
+            margin: 10px 0;
+        }
+
+        .profileDetails .profile-links li a{
+            color: black;
+            text-decoration: none;
+            margin: 10px 0;
+            display: inline-block;
+        }
+
+        .profileDetails .mt-custom{
+            margin-top: 100px;
+        }
+
+        .profileDetails .mt-custom .details{
+            border-bottom: 1px solid #02a12c;
+            padding: 20px;
+        }
+
+        .profileDetails .text-justify{
+            text-align: justify;
+        }
+            /* profile details end */
+        </style>
+    </head>
+    <body>
+        <header>
+            <div class="navbar">
+                <div class="logo">
+                    <a href="./customerIndex.html">Agro <span style="color: #02a12c;">Bot</span></a>
+                </div>
+
+                <ul class="links">
+                    <li><a href="./customerIndex.html">Home</a></li>
+                    <li><a href="./customerBuy.html">Buy</a></li>
+                    <li><a href="./distributioncenters.html">Distribution centers</a></li>
+                    <li><a href="./farmers.html">Farmers</a></li>
+                    <li><a href="./custmerAboutUs.html">About Us</a></li>
+                </ul>
+
+                <a href="./addtoCart.html" class="action_btn"><img src="../Images/Group members/member1.png" alt=""></a>
+
+                <div class="toggle_btn">
+                    <i class="fa-solid fa-bars"></i>
+                </div>
+            </div>
+
+            <div class="dropdown-menu">
+                    <li><a style="color: #7a7a78;" href="./customerIndex.html">Home</a></li>
+                    <li><a style="color: #7a7a78;" href="./customerBuy.html">Buy</a></li>
+                    <li><a style="color: #7a7a78;" href="./distributioncenters.html">Distribution centers</a></li>
+                    <li><a style="color: #7a7a78;" href="./farmers.html">Farmers</a></li>
+                    <li><a style="color: #7a7a78;" href="./aboutUs.html">About Us</a></li>
+                    <a href="./registerSignIn.html" class="action_btn"><img src="../Images/Group members/member1.png" alt=""></a>
+            </div>
+        </header>
+        
+        <br>
+        <!-- start of distribution center explanation -->
+        <div class="container profileDetails">
+            <div class="row">
+                <div class="col">
+                    <h1>
+                        <span style="color: #02a12c;">Cart</span> Items
+                    </h1>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-6">
+                    <div class="mt-custom">
+                        <div class="card">
+                            <div class="row g-0">
+                                <div class="col-6 col-md-5">
+                                    <img style="width: 100%; height: 100%; border-bottom-right-radius: 0;" class="card-img img-fluid rounded-start" src="../Images/available products/vegetables & fruits/potato.jpeg" alt="Cube">
+                                </div>
+                                <div class="col-6 col-md-7">
+                                    <div class="card-body d-flex flex-column">
+                                        <div class="h-100">
+                                            <h2 class="card-title">
+                                                Potato
+                                            </h2>
+                                            <div class="row g-0">
+                                                <div class="col-12 col-md-12">
+                                                    <div class="form-group">
+                                                        <label>From </label>
+                                                        <label for="">Kaluthara Center</label>
+                                                    </div>
+                                                </div>
+                                            </div>
+    
+                                            <div class="row g-0">
+                                                <div class="col-12 col-md-12">
+                                                    <div class="form-group">
+                                                        <label>Farmer </label>
+                                                        <label for="">J. S. Jayasekara</label>
+                                                    </div>
+                                                </div>
+                                            </div>
+    
+                                            <div class="row g-0">
+                                                <div class="col-12 col-md-12">
+                                                    <div class="form-group">
+                                                        <label>Price </label>
+                                                        <b>
+                                                            <label for="">Rs. 780.00</label>
+                                                        </b>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div>
+                                            <div class="row g-0">
+                                                <div class="col-12 col-md-12">
+                                                    <div class="form-group">
+                                                        <a class="form-control btn btn-outline-danger" href="build.aspx">Remove Item</a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="card">
+                            <div class="row g-0">
+                                <div class="col-6 col-md-5">
+                                    <img style="width: 100%; height: 100%; border-bottom-right-radius: 0;" class="card-img img-fluid rounded-start" src="../Images/available products/vegetables & fruits/tomato.jpg" alt="Cube">
+                                </div>
+                                <div class="col-6 col-md-7">
+                                    <div class="card-body d-flex flex-column">
+                                        <div class="h-100">
+                                            <h2 class="card-title">
+                                                Tomato
+                                            </h2>
+                                            <div class="row g-0">
+                                                <div class="col-12 col-md-12">
+                                                    <div class="form-group">
+                                                        <label>From </label>
+                                                        <label for="">Kaluthara Center</label>
+                                                    </div>
+                                                </div>
+                                            </div>
+    
+                                            <div class="row g-0">
+                                                <div class="col-12 col-md-12">
+                                                    <div class="form-group">
+                                                        <label>Farmer </label>
+                                                        <label for="">J. S. Jayasekara</label>
+                                                    </div>
+                                                </div>
+                                            </div>
+    
+                                            <div class="row g-0">
+                                                <div class="col-12 col-md-12">
+                                                    <div class="form-group">
+                                                        <label>Price </label>
+                                                        <b>
+                                                            <label for="">Rs. 800.00</label>
+                                                        </b>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div>
+                                            <div class="row g-0">
+                                                <div class="col-12 col-md-12">
+                                                    <div class="form-group">
+                                                        <a class="form-control btn btn-outline-danger" href="build.aspx">Remove Item</a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="card">
+                            <div class="row g-0">
+                                <div class="col-6 col-md-5">
+                                    <img style="width: 100%; height: 100%; border-bottom-right-radius: 0;" class="card-img img-fluid rounded-start" src="../Images/available products/Rice/rice 01.jpg" alt="Cube">
+                                </div>
+                                <div class="col-6 col-md-7">
+                                    <div class="card-body d-flex flex-column">
+                                        <div class="h-100">
+                                            <h2 class="card-title">
+                                                Red rice
+                                            </h2>
+                                            <div class="row g-0">
+                                                <div class="col-12 col-md-12">
+                                                    <div class="form-group">
+                                                        <label>From </label>
+                                                        <label for="">Kaluthara Center</label>
+                                                    </div>
+                                                </div>
+                                            </div>
+    
+                                            <div class="row g-0">
+                                                <div class="col-12 col-md-12">
+                                                    <div class="form-group">
+                                                        <label>Farmer </label>
+                                                        <label for="">J. S. Gunawardena</label>
+                                                    </div>
+                                                </div>
+                                            </div>
+    
+                                            <div class="row g-0">
+                                                <div class="col-12 col-md-12">
+                                                    <div class="form-group">
+                                                        <label>Price </label>
+                                                        <b>
+                                                            <label for="">Rs. 20,780.00</label>
+                                                        </b>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div>
+                                            <div class="row g-0">
+                                                <div class="col-12 col-md-12">
+                                                    <div class="form-group">
+                                                        <a class="form-control btn btn-outline-danger" href="build.aspx">Remove Item</a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="card">
+                            <div class="row g-0">
+                                <div class="col-6 col-md-5">
+                                    <img style="width: 100%; height: 100%; border-bottom-right-radius: 0;" class="card-img img-fluid rounded-start" src="../Images/available products/meat/beef.jpg" alt="Cube">
+                                </div>
+                                <div class="col-6 col-md-7">
+                                    <div class="card-body d-flex flex-column">
+                                        <div class="h-100">
+                                            <h2 class="card-title">
+                                                Beef
+                                            </h2>
+                                            <div class="row g-0">
+                                                <div class="col-12 col-md-12">
+                                                    <div class="form-group">
+                                                        <label>From </label>
+                                                        <label for="">Kaluthara Center</label>
+                                                    </div>
+                                                </div>
+                                            </div>
+    
+                                            <div class="row g-0">
+                                                <div class="col-12 col-md-12">
+                                                    <div class="form-group">
+                                                        <label>Farmer </label>
+                                                        <label for="">J. S. Piliyandala</label>
+                                                    </div>
+                                                </div>
+                                            </div>
+    
+                                            <div class="row g-0">
+                                                <div class="col-12 col-md-12">
+                                                    <div class="form-group">
+                                                        <label>Price </label>
+                                                        <b>
+                                                            <label for="">Rs. 10,000.00</label>
+                                                        </b>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div>
+                                            <div class="row g-0">
+                                                <div class="col-12 col-md-12">
+                                                    <div class="form-group">
+                                                        <a class="form-control btn btn-outline-danger" href="build.aspx">Remove Item</a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <h3 class="mt-5">Delivery address</h3>
+                    <p class="text-justify">
+                        No. 48/2, jaya mawatha, halpila, kotuwadeniya, sri lanka.
+                    </p>
+
+                    <h3 class="mt-5">Payment Method: Cash on delivery</h3>
+                    <p class="text-justify">
+                        Total: Rs. 1, 180.00/=
+                    </p>
+                    <a href="#" class="btn btn-fluid btn-dark">Pay Now</a>
+                </div>
+
+                <div class="col-md-6">
+                    <div class="profile-links">
+                        <img src="../Images/available products/Distribution centers/consumer.jpg" alt="">
+                        <li><a href="#" style="font-size: 25px; font-weight: 400;color: #02a12c;">M. Rajapaksha</a></li>
+                        <li><a href="#">Summray</a></li>
+                        <p style="color: black; margin-top: 0; padding-top: 0;">
+                            Total - Rs. 1,180.00/=
+                        </p>
+
+                        <li><a href="#">Payment Methods</a></li>
+                        <p style="color: black; margin-top: 0; padding-top: 0;">
+                            Select Your payment methods
+                            <li><a href="#" style="color: #02a12c;">Card payment</a></li>
+                            <li><a href="#" style="color: #02a12c;">Cash payments</a></li>
+                        </p>
+
+                        <li><a href="#">Buyer Protection</a></li>
+                        <p style="color: black; margin-top: 0; padding-top: 0;">
+                            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Earum laborum aliquam non!
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <br>
+        <!-- end of distribution center explanation -->
+
+        <br>
+        <!-- footer design -->
+        <footer class="footer">
+            <div class="container">
+                <div class="row">
+                    <div class="footer-col">
+                        <h4>Home</h4>
+                        <ul>
+                            <li><a href="#">Vision and Mission</a></li>
+                            <li><a href="#">Most Popular Products</a></li>
+                            <li><a href="#">See How to get started</a></li>
+                            <li><a href="#">Awarded Villages</a></li>
+                            <li><a href="#">Progress Rate</a></li>
+                        </ul>
+                    </div>
+
+                    <div class="footer-col">
+                        <h4>Buy</h4>
+                        <ul>
+                            <li><a href="#">Buy Goods</a></li>
+                            <li><a href="#">Rate the goods</a></li>
+                            <li><a href="#">Guidelines for food buying</a></li>
+                            <li><a href="#">Be a loyal customer</a></li>
+                        </ul>
+                    </div>
+
+                    <div class="footer-col">
+                        <h4>Register / SignIn</h4>
+                        <ul>
+                            <li><a href="#">Register as a customer</a></li>
+                            <li><a href="#">Register as a farmer</a></li>
+                            <li><a href="#">Register a new distibution Center</a></li>
+                            <li><a href="#">Guidelines</a></li>
+                        </ul>
+                    </div>
+
+                    <div class="footer-col">
+                        <h4>Connect Us</h4>
+                        <div class="social-links">
+                            <a href="#"><i class="fab fa-facebook-f"></i></a>
+                            <a href="#"><i class="fab fa-twitter"></i></a>
+                            <a href="#"><i class="fab fa-instagram"></i></a>
+                            <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </footer>
+
+        
+    </body>
+</html>

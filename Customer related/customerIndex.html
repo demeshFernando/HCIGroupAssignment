@@ -1,0 +1,479 @@
+<html>
+    <head>
+        <title></title>
+        <link rel="stylesheet" href="../Bootstrap/css/bootstrap.css">
+        <link rel="stylesheet" href="../Bootstrap/css/bootstrap-utilities.min.css">
+        <link rel="stylesheet" href="../Bootstrap/css/bootstrap.min.css">
+        <link rel="stylesheet" href="../CSS/style.css">
+        <link rel="stylesheet" href="../fontawesome/css/all.css">
+
+        <style>
+            header .action_btn{
+                width: 50px;
+                height: 50px;
+                padding: 0;
+                margin: 0;
+                align-items: center;
+                justify-content: center;
+                border-radius: 50%;
+                overflow: hidden;
+            }
+
+            header .action_btn img{
+                width: 50px;
+                height: 50px;
+                object-fit: cover;
+            }
+        </style>
+    </head>
+    <body>
+        <header>
+            <div class="navbar">
+                <div class="logo">
+                    <a href="./customerIndex.html">Agro <span style="color: #02a12c;">Bot</span></a>
+                </div>
+
+                <ul class="links">
+                    <li><a href="./customerIndex.html">Home</a></li>
+                    <li><a href="./customerBuy.html">Buy</a></li>
+                    <li><a href="./distributioncenters.html">Distribution centers</a></li>
+                    <li><a href="./farmers.html">Farmers</a></li>
+                    <li><a href="./custmerAboutUs.html">About Us</a></li>
+                </ul>
+
+                <a href="./addtoCart.html" class="action_btn"><img src="../Images/Group members/member1.png" alt=""></a>
+
+                <div class="toggle_btn">
+                    <i class="fa-solid fa-bars"></i>
+                </div>
+            </div>
+
+            <div class="dropdown-menu">
+                    <li><a style="color: #7a7a78;" href="./customerIndex.html">Home</a></li>
+                    <li><a style="color: #7a7a78;" href="./customerBuy.html">Buy</a></li>
+                    <li><a style="color: #7a7a78;" href="./distributioncenters.html">Distribution centers</a></li>
+                    <li><a style="color: #7a7a78;" href="./farmers.html">Farmers</a></li>
+                    <li><a style="color: #7a7a78;" href="./aboutUs.html">About Us</a></li>
+                    <a href="./registerSignIn.html" class="action_btn"><img src="../Images/Group members/member1.png" alt=""></a>
+            </div>
+        </header>
+        <section style="background-image: url(../Images/main\ img.jpg); width: 100%;;"></section>
+        <br>
+        <!-- developing section -->
+        <div class="container">
+            <div class="row">
+                <div class="col">
+                    <h1><center>Who we Are?</center></h1>
+                    <center>
+                        <p>This is an agricultural information system. which specifically produced to buy products that are cultivated from our farmers. you can preorder their products for lower cost. and buy them. you can choose any farmer from any of our registered distribution center</p>
+                    </center>
+                </div>
+            </div>
+        </div>
+
+        <!-- most chosen products -->
+        <div class="container mostChosenProducts">
+            <div class="row-btns">
+                <div class="btns-filter">
+                    <span class="filter-item active" data-filter="all">All</span>
+                    <span class="filter-item" data-filter="rice">Raw rice</span>
+                    <span class="filter-item" data-filter="vegetables">Vegetables</span>
+                    <span class="filter-item" data-filter="meat">Meat</span>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-sm-4">
+                    <div class="card">
+                        <img src="../Images/available products/Rice/rice 01.jpg" alt="" class="card-img">
+
+                        <div class="card-body">
+                            <h3 class="card-title"><span style="color: rgb(177, 177, 177);">Agro</span> <span style="color: #02a12c;">Bot</span></h3>
+                            <h2 class="card-title">Samba</h2>
+                            <p class="card-text">
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis dignissimos a rem.
+                            </p>
+                            <button type="button" onclick="window.location.href = './Customer related/distributioncenters.html';" class="btn btn-success">Reserve</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-sm-4">
+                    <div class="card">
+                        <img src="../Images/available products/rice/rice 02.jpg" alt="" class="card-img">
+
+                        <div class="card-body">
+                            <h3 class="card-title"><span style="color: rgb(177, 177, 177);">Agro</span> <span style="color: #02a12c;">Bot</span></h3>
+                            <h2 class="card-title">Nadu</h2>
+                            <p class="card-text">
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis dignissimos a rem.
+                            </p>
+                            <button type="button" onclick="window.location.href = './Customer related/distributioncenters.html';" class="btn btn-success">Reserve</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-sm-4">
+                    <div class="card">
+                        <img src="../Images/available products/vegetables & fruits/potato.jpeg" alt="" class="card-img">
+
+                        <div class="card-body">
+                            <h3 class="card-title"><span style="color: rgb(177, 177, 177);">Agro</span> <span style="color: #02a12c;">Bot</span></h3>
+                            <h2 class="card-title">Potato</h2>
+                            <p class="card-text">
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis dignissimos a rem.
+                            </p>
+                            <button type="button" onclick="window.location.href = './Customer related/distributioncenters.html';" class="btn btn-success">Reserve</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <br>
+            <div class="row">
+                <div class="col-sm-4">
+                    <div class="card">
+                        <img src="../Images/available products/vegetables & fruits/tomato.jpg" alt="" class="card-img">
+
+                        <div class="card-body">
+                            <h3 class="card-title"><span style="color: rgb(177, 177, 177);">Agro</span> <span style="color: #02a12c;">Bot</span></h3>
+                            <h2 class="card-title">Tomato</h2>
+                            <p class="card-text">
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis dignissimos a rem.
+                            </p>
+                            <button type="button" onclick="window.location.href = './Customer related/distributioncenters.html';" class="btn btn-success">Reserve</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-sm-4">
+                    <div class="card">
+                        <img src="../Images/available products/meat/beef.jpg" alt="" class="card-img">
+
+                        <div class="card-body">
+                            <h3 class="card-title"><span style="color: rgb(177, 177, 177);">Agro</span> <span style="color: #02a12c;">Bot</span></h3>
+                            <h2 class="card-title">Beef</h2>
+                            <p class="card-text">
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis dignissimos a rem.
+                            </p>
+                            <button type="button" onclick="window.location.href = './Customer related/distributioncenters.html';" class="btn btn-success">Reserve</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-sm-4">
+                    <div class="card">
+                        <img src="../Images/available products/meat/chicken.jpg" alt="" class="card-img">
+
+                        <div class="card-body">
+                            <h3 class="card-title"><span style="color: rgb(177, 177, 177);">Agro</span> <span style="color: #02a12c;">Bot</span></h3>
+                            <h2 class="card-title">Chicken</h2>
+                            <p class="card-text">
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis dignissimos a rem.
+                            </p>
+                            <button type="button" onclick="window.location.href = './Customer related/distributioncenters.html';" class="btn btn-success">Reserve</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- end of most chosen products -->
+
+        <br>
+
+        <!-- start new introductions -->
+
+        <div class="container-fluid" style="color: white; background-color: #00210f; margin: 0; padding: 0; box-sizing: border-box;;">
+            <div class="container">
+                <div class="row">
+                    <div class="col">
+                        <h1><center><span style="color: #02a12c;">Newly introduced</span> Products</center></h1>
+                        <center>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi nobis pariatur maxime, praesentium, eveniet sit exercitationem hic odit veritatis vel, inventore sint culpa nisi magni facilis. Neque porro nam tenetur, vel cupiditate incidunt quis quasi consectetur perferendis in eveniet dolores?</p>
+                        </center>
+                    </div>
+                </div>
+            </div>
+
+            <div class="container mostChosenProducts">
+                <div class="row">
+                    <div class="col-sm-4">
+                        <div class="card">
+                            <img src="../Images/available products/new introductions/yellow fin tuna.jpg" alt="" class="card-img">
+    
+                            <div class="card-body">
+                                <h3 class="card-title"><span style="color: rgb(177, 177, 177);">Agro</span> <span style="color: #02a12c;">Bot</span></h3>
+                                <h2 class="card-title" style="color: black;">Yellowfin Tuna</h2>
+                                <h3 class="card-title" style="color: #7a7a78;">From Negombo Distribution Center</h3>
+                                <p class="card-text" style="color: black;">
+                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis dignissimos a rem.
+                                </p>
+                                <button type="button" class="btn btn-success">Reserve</button>
+                            </div>
+                        </div>
+                    </div>
+    
+                    <div class="col-sm-4">
+                        <div class="card">
+                            <img src="../Images/available products/new introductions/dragon fruit.jpg" alt="" class="card-img">
+    
+                            <div class="card-body">
+                                <h3 class="card-title"><span style="color: rgb(177, 177, 177);">Agro</span> <span style="color: #02a12c;">Bot</span></h3>
+                                <h2 class="card-title" style="color: black;">Dragon Fruit</h2>
+                                <h3 class="card-title" style="color: #7a7a78;">From Anuradhapura Distribution Center</h3>
+                                <p class="card-text" style="color: black;">
+                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis dignissimos a rem.
+                                </p>
+                                <button type="button" onclick="window.location.href = './Customer related/distributioncenters.html';" class="btn btn-success">Reserve</button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-sm-4">
+                        <div class="card">
+                            <img src="../Images/available products/new introductions/fish eggs.jpg" alt="" class="card-img">
+    
+                            <div class="card-body">
+                                <h3 class="card-title"><span style="color: rgb(177, 177, 177);">Agro</span> <span style="color: #02a12c;">Bot</span></h3>
+                                <h2 class="card-title" style="color: black;">Fish Eggs</h2>
+                                <h3 class="card-title" style="color: #7a7a78;">From Negombo Distribution Center</h3>
+                                <p class="card-text" style="color: black;">
+                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis dignissimos a rem.
+                                </p>
+                                <button type="button" onclick="window.location.href = './Customer related/distributioncenters.html';" class="btn btn-success">Reserve</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <br>
+        </div>
+        <br>
+        <!-- end new introductions -->
+
+        <!-- start our achievers -->
+        <div class="container achievers">
+            <div class="row">
+                <div class="col">
+                    <h1><center><span >Our</span> <span style="color: #02a12c;">Achievers</span></center></h1>
+                    <center>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi nobis pariatur maxime, praesentium, eveniet sit exercitationem hic odit veritatis vel, inventore sint culpa nisi magni facilis. Neque porro nam tenetur, vel cupiditate incidunt quis quasi consectetur perferendis in eveniet dolores?</p>
+                    </center>
+                </div>
+            </div>
+            <br>
+
+            <div class="row justify-content-evenly">
+                <div class="col-sm-4">
+                    <div class="card-achieveers">
+                        <img src="../Images/available products/Distribution centers/Negombo.jpg" alt="Negombo Distribution center" class="achievers-card-img">
+                        <div class="achievers-card-body">
+                            <h2 class="achievers-card-title">Negombo</h2>
+                            <p class="card-subtitle">
+                                Popular Distribution Center
+                            </p>
+                            <p class="achievers-card-info">
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur nulla nam distinctio voluptas aperiam explicabo ex unde repudiandae iusto eum?
+                            </p>
+                            <button type="button" onclick="window.location.href = './Customer related/distributioncenters.html';" class="btn btn-dark">Buy Products</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-sm-4">
+                    <div class="card-achieveers">
+                        <img src="../Images/available products/Distribution centers/farmer.jpg" alt="Negombo Distribution center" class="achievers-card-img">
+                        <div class="achievers-card-body">
+                            <h2 class="achievers-card-title">J. S. Navariyan</h2>
+                            <p class="card-subtitle">
+                                Popular Farmer
+                            </p>
+                            <p class="achievers-card-info">
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur nulla nam distinctio voluptas aperiam explicabo ex unde repudiandae iusto eum?
+                            </p>
+                            <button type="button" onclick="window.location.href = './Customer related/distributioncenters.html';" class="btn btn-dark">Buy Products</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-sm-4">
+                    <div class="card-achieveers">
+                        <img src="../Images/available products/Distribution centers/consumer.jpg" alt="Negombo Distribution center" class="achievers-card-img">
+                        <div class="achievers-card-body">
+                            <h2 class="achievers-card-title">Mahinda</h2>
+                            <p class="card-subtitle">
+                                Popular Dealer
+                            </p>
+                            <p class="achievers-card-info">
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur nulla nam distinctio voluptas aperiam explicabo ex unde repudiandae iusto eum?
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- end our achievers -->
+        <br>
+
+        <!-- start of counters -->
+        <div class="container">
+            <div class="row">
+                <div class="col">
+                    <h1><center><span >Our</span> Contribution to the <span style="color: #02a12c;">Community</span></center></h1>
+                </div>
+            </div>
+
+            <div class="row justify-content-evenly">
+                <div class="col-sm-4">
+                    <div class="card" style="align-items: center; backdrop-filter: blur(5px); background-color: rgba(255, 255, 255, 0.4); color: black; position: relative;">
+                        <center>
+                            <h2 style="justify-content: center;">1,200+</h2>
+                        </center>
+                        <center>
+                            <p class="card-body">
+                                Distribution centers
+                            </p>
+                        </center>
+                    </div>
+                </div>
+
+                <div class="col-sm-4">
+                    <div class="card" style="align-items: center; backdrop-filter: blur(5px); background-color: rgba(255, 255, 255, 0.4); color: black; position: relative;">
+                        <center>
+                            <h2 style="justify-content: center;">40,000+</h2>
+                        </center>
+                        <center>
+                            <p class="card-body">
+                                Farmers
+                            </p>
+                        </center>
+                    </div>
+                </div>
+
+                <div class="col-sm-4">
+                    <div class="card" style="align-items: center; backdrop-filter: blur(5px); background-color: rgba(255, 255, 255, 0.4); color: black; position: relative;">
+                        <center>
+                            <h2 style="justify-content: center;">20,000+</h2>
+                        </center>
+                        <center>
+                            <p class="card-body">
+                                Consumers
+                            </p>
+                        </center>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row justify-content-evenly">
+                <div class="col-sm-4">
+                    <div class="card" style="align-items: center; backdrop-filter: blur(5px); background-color: rgba(255, 255, 255, 0.4); color: black; position: relative;">
+                        <center>
+                            <h2 style="justify-content: center;">$4 Mn +</h2>
+                        </center>
+                        <center>
+                            <p class="card-body">
+                                Transaction over past decades
+                            </p>
+                        </center>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col">
+                    <center>
+                        <p>
+                            This will keep on increasing.
+                        </p>
+                    </center>
+                </div>
+            </div>
+        </div>
+        <!-- end of counters -->
+
+        <br>
+        <!-- footer design -->
+        <footer class="footer">
+            <div class="container">
+                <div class="row">
+                    <div class="footer-col">
+                        <h4>Home</h4>
+                        <ul>
+                            <li><a href="#">Vision and Mission</a></li>
+                            <li><a href="#">Most Popular Products</a></li>
+                            <li><a href="#">See How to get started</a></li>
+                            <li><a href="#">Awarded Villages</a></li>
+                            <li><a href="#">Progress Rate</a></li>
+                        </ul>
+                    </div>
+
+                    <div class="footer-col">
+                        <h4>Buy</h4>
+                        <ul>
+                            <li><a href="#">Buy Goods</a></li>
+                            <li><a href="#">Rate the goods</a></li>
+                            <li><a href="#">Guidelines for food buying</a></li>
+                            <li><a href="#">Be a loyal customer</a></li>
+                        </ul>
+                    </div>
+
+                    <div class="footer-col">
+                        <h4>Register / SignIn</h4>
+                        <ul>
+                            <li><a href="#">Register as a customer</a></li>
+                            <li><a href="#">Register as a farmer</a></li>
+                            <li><a href="#">Register a new distibution Center</a></li>
+                            <li><a href="#">Guidelines</a></li>
+                        </ul>
+                    </div>
+
+                    <div class="footer-col">
+                        <h4>Connect Us</h4>
+                        <div class="social-links">
+                            <a href="#"><i class="fab fa-facebook-f"></i></a>
+                            <a href="#"><i class="fab fa-twitter"></i></a>
+                            <a href="#"><i class="fab fa-instagram"></i></a>
+                            <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </footer>
+
+        <script>
+            const togglebtn = document.querySelector('.toggle_btn')
+            const togglebtnIcon = document.querySelector('.toggle_btn i')
+            const dropdownmenu = document.querySelector('.dropdown-menu')
+
+            togglebtn.onclick = function(){
+                dropdownmenu.classList.toggle('open')
+                const isOpen = dropdownmenu.classList.contains('open')
+
+                togglebtnIcon = isOpen ? 'fa-solid fa-xmark' : 'fa-solid fa-bars'
+            }
+
+            window.addEventListener("scroll", function(){
+                var header = document.querySelector("header");
+                header.classList.toggle("sticky", window.scrollY > 0);  
+            })
+
+            const filterContainer = document.querySelector(".btns-filter");
+            galleryItems = document.querySelectorAll(".gallery-item");
+
+            filterContainer.addEventListener("click", (event) => {
+                if(event.target.classList.contains("filter-item")){
+                    filterContainer.querySelector(".active").classList.remove("active");
+                    event.target.classList.add("active");
+                    const filterValue = event.target.getAttribute("data-filter");
+                    galleryItems.foreach((items) => {
+                        if(items.classList.contains(filterValue) || filterValue === "all"){
+                            items.classList.remove("hide");
+                            items.classList.add("show");
+                        }else{
+                            items.classList.remove("show");
+                            items.classList.add("hide");
+                        }
+                    });
+                }
+            });
+        </script>
+    </body>
+</html>
